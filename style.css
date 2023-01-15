@@ -1,0 +1,26 @@
+body {
+    background-color: tan;
+  }
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr); 
+    grid-template-rows: repeat(16, 1fr);
+    border: 5px solid black;
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+}
+
+#header {
+    margin-left:300px;
+    margin-top: 100px;
+    color:black;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#container .new{
+    background-color: blanchedalmond;
+}
+
